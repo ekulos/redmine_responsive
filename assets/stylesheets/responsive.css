@@ -126,6 +126,7 @@
         font-size: 1em;
         float: left;
         margin-top: 5px;
+        clear: both;
     }
 
     /* reset #header a color for mobile toggle button */
@@ -187,7 +188,7 @@
         line-height: 1.2;
 
         position: absolute;
-        top: 10px;
+        top: 12px;
         left: 0;
 
         float: left;
@@ -273,7 +274,7 @@
         float: right;
 
         width: 60px;
-        height: 64px;
+        height: 40px;
         margin-top: 0;
 
         text-align: center;
