@@ -782,3 +782,11 @@
         width: 100%;
     }
 }
+
+@media all and (max-width: 48px)
+{
+    #header #quick-search select
+    {
+        top: 10px;
+    }
+}
