@@ -187,7 +187,7 @@
         line-height: 1.2;
 
         position: absolute;
-        top: 0px;
+        top: 10px;
         left: 0;
 
         float: left;
@@ -195,7 +195,7 @@
         width: 100%;
         max-width: 100%;
         height: 2em;
-        height: 35px;
+        // height: 35px;
         padding: 5px;
         padding-right: 72px;
         padding-left: 40px;
@@ -780,13 +780,5 @@
 
     span#watchers_inputs {
         width: 100%;
-    }
-}
-
-@media all and (max-width: 48px)
-{
-    #header #quick-search select
-    {
-        top: 10px;
     }
 }
