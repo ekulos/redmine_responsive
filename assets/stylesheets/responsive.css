@@ -109,10 +109,11 @@
     #header
     {
         width: 100%;
-        height: 64px; /* the height of our header on mobile */
+        height: auto; /* the height of our header on mobile */
         min-height: 0;
         margin: 0;
         padding: 0;
+        overflow: hidden;
 
         border: none;
         background-color: #628db6;
@@ -121,7 +122,10 @@
     /* Hide project name on mobile (project name is still visible in select menu) */
     #header h1
     {
-        display: none !important;
+        // display: none !important;
+        font-size: 1em;
+        float: left;
+        margin-top: 5px;
     }
 
     /* reset #header a color for mobile toggle button */
@@ -178,12 +182,12 @@
     /* styles for combobox within quick-search (#project_quick_jump_box) */
     #header #quick-search select
     {
-        font-size: 1.5em;
+        font-size: 1em;
         font-weight: bold;
         line-height: 1.2;
 
         position: absolute;
-        top: 15px;
+        top: 0px;
         left: 0;
 
         float: left;
@@ -194,7 +198,7 @@
         height: 35px;
         padding: 5px;
         padding-right: 72px;
-        padding-left: 50px;
+        padding-left: 40px;
 
         text-indent: .01px;
 
@@ -274,7 +278,6 @@
 
         text-align: center;
 
-        border-left: 1px solid #ddd;
     }
 
     .mobile-toggle-button:hover,
